@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elyas Tahere's portfolio website showcasing web development skills and projects.">
+    <meta name="keywords" content="Web Developer, Portfolio, Elyas Tahere, Elyas , Tahere, HTML, CSS, JavaScript, Development">
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <link rel="stylesheet" href="links/bootstrap.css">
+    <link rel="stylesheet" href="links/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PortFolio Website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Maps&family=Shrikhand&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Maps&family=Shrikhand&display=swap" rel="stylesheet">
+      
+</head>
+<body>
+
+    <!-- Navbar -->
+     <div class="container-fluid" id="Home">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar" id="navbar">
+                        <h3><a href="Home"><span>E.</span>Tahere</a></h3>
+                        <ul id="sidemenu">
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Services">Services</a></li>
+                            <li><a href="#PortFolio">PortFolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><form id="formsubmit"><a href="" type="submit" id="theme-toggle" aria-label="Switch theme">Light Mode</a></form></li>
+                            <li onclick="closemenu()"><span id="closebtn"><i class="fas fa-times"></i></span></li>
+                        </ul>
+                        <span id="openbtn" onclick="openmenu()"><i class="fas fa-bars"></i></span>
+                    </nav>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- slider -->
+      <div class="container-fluid mb-5" id="#Home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                   <div class="slider">
+                    <p>Web Developer</p>
+                    <h1>Hi, I'm <span>Elyas</span> Tahere <br> From Afganistan</h1>
+                   </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+       <div class="container-fluid bg-default ">
+        <!-- About me -->
+        <div class="container py-5" id="About">
+            <div class="about">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="img">
+                        <img src="images/4copy.jpg" alt="picture of Elyas Tahere">
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="des1">
+                        <h1>About Me</h1>
+                        <p>I aspire to become a highly skilled web developer, like Shraddha Kapoor, and offer innovative    solutions
+                            in technology. My goal is to serve people by solving technological problems and to achieve excellence
+                            in web development. I also hope to pursue a master degree in a foreign country, followed by a PhD in
+                            technology, with a focus on web development. Ultimately, I aim to lead a successful and fulfilling life
+                            while making a positive impact on society.</p>
+                    </div>
+                    <div class="des2">
+                        <ul>
+                            <li class="active-link" id="skills">Skills</li>
+                            <li class="unactive-link" id="expereince">Expereince</li>
+                            <li class="unactive-link" id="education">Education</li>
+                        </ul>
+
+                        <div class="skills active-content">
+                            <div class="skill">
+                                <p><span>UI/UX</span><br>Designing Web/App Interfaces</p>
+                                <p><span>Web Development</span><br>Web App Development</p>
+                                <p><span>App Development</span><br>Building Andriod/IOS apps</p>
+                            </div>
+                        </div>
+
+                        <div class="expereinces unactive-content">
+                           <div class="expereince">
+                                <p><span>2024 - Current</span><br>Following Web Development Course at AYEC</p>
+                                <p><span>2023 - Current</span><br>Studies as student in BCS at KU</p>
+                                <p><span>2020 -2023</span><br>Following and loving about Technology and Science </p>
+                           </div>
+                        </div>
+
+                        <div class="educations unactive-content">
+                           <div class="education">
+                                <p><span>2023 - Current</span><br>In BCS</p>
+                                <p><span>2024</span><br>Copmleted DEL</p>
+                                <p><span>2023</span><br>Completed High School</p>
+                                <p><span>2020</span><br>Copmleted hefaz Quran kareem</p>
+                           </div>
+                        </div>
+
+                        <div><a class="btn1" id="cv" download href="links/Elyas_Tahere_CV1_v3.pdf">Download CV</a></div>
+                    </div>
+                    
+                </div>
+               </div>
+            </div>
+        </div>
+
+
+        <!-- my Services -->
+         <div class="container pt-5" id="Services">
+            <h1 class="mb-5">My Services</h1>
+            <div class="services">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <h3><i class="fa-solid fa-layer-group"></i></h3>
+                            <h3>Web Design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti explicabo magni repellat provident ut quae consequuntur quasi adipisci qui consectetur.</p>
+                            <a href="">Learn More...</a>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <h3><i class="fab fa-app-store"></i></h3>
+                            <h3>App Design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti explicabo magni repellat provident ut quae consequuntur quasi adipisci qui consectetur.</p>
+                            <a href="">Learn More...</a>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 mb-5">
+                        <div class="card">
+                            <h3><i class="fa-solid fa-house"></i></h3>
+                            <h3>UI.UX Design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti explicabo magni repellat provident ut quae consequuntur quasi adipisci qui consectetur.</p>
+                            <a href="">Learn More...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+         <!-- My works -->
+          <div class="container pt-5" id="PortFolio">
+            <div class="my-work">
+                <h1 class="mb-5">My Works</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="images/work1.png" alt="project picture">
+
+                            <div class="inforamtaion">
+                                <h3>E-Comerce </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, rerum?</p>
+                                <a href="#comingsoon.."><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                                <h3>
+                                    <ul class="list-unstyled mt-5 d-flex justify-content-center">
+                                      <li class="mx-1"><i class="fa fa-star text-warning checked"></i></li>
+                                      <li class="mx-1"><i class="fa fa-star text-warning checked "></i></li>
+                                      <li class="mx-1"><i class="fa fa-star text-warning checked"></i></li>
+                                      <li class="mx-1"><i class="fa fa-star text-warning checked"></i></li>
+                                      <li class="mx-1"><i class="fa fa-star"></i></li>
+                                    </ul>
+                                  </h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="images/work2.png" alt="project picture">
+
+                            <div class="inforamtaion">
+                                <h3>Online Shopping</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, rerum?</p>
+                                <a href="#comingsoon"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                                <h3>
+                                    <ul class="list-unstyled mt-5 d-flex justify-content-center">
+                                      <li class="mx-1"><i class="fa fa-star text-warning checked"></i></li>
+                                      <li class="mx-1"><i class="fa fa-star text-warning checked "></i></li>
+                                      <li class="mx-1"><i class="fa fa-star text-warning checked"></i></li>
+                                      <li class="mx-1"><i class="fa fa-star text-warning checked"></i></li>
+                                      <li class="mx-1"><i class="fa fa-star text-warning checked"></i></li>
+                                    </ul>
+                                  </h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="images/work3.png" alt="project picture">
+
+                            <div class="inforamtaion">
+                                <h3>Forecast Weather</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, rerum?</p>
+                                <a target="_blank" href=" https://elyas-tahere.github.io/E.Tahere-Weather/"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                                <h3>
+                                    <ul class="list-unstyled mt-5 d-flex justify-content-center">
+                                      <li class="mx-1"><i class="fa fa-star text-warning checked"></i></li>
+                                      <li class="mx-1"><i class="fa fa-star text-warning checked "></i></li>
+                                      <li class="mx-1"><i class="fa fa-star text-warning checked"></i></li>
+                                      <li class="mx-1"><i class="fa fa-star"></i></li>
+                                      <li class="mx-1"><i class="fa fa-star"></i></li>
+                                    </ul>
+                                  </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col" id="seemoreworks">
+                    <a class="btn1 mb-5" href="">See More</a>
+                </div>
+            </div>
+          </div>
+
+          <hr>
+
+          <!-- Contact Me -->
+           <div class="container pt-5 pb-3" id="contact">
+            <div class="contact">
+                <div class="row">
+                    <div class="col-md-5 mb-5">
+                        <h1>Contact Me</h1>
+                        <p><i class="fa-solid fa-phone"></i> 0093786028713</p>
+                        <p><i class="fas fa-paper-plane"></i> ahmadelyas600@gmail.com</p>
+                        <p><i class="fa-solid fa-location-dot"></i> Nangrahar Afganistan</p>
+
+                        <ul>
+                            <li><a target="_blank"  href="https://www.facebook.com/elyas.haqyar"><i class="fab fa-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://x.com/ahmad521529?t=SpDiCNLMCYJ-Lrrlw&s=09"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/haqyarelyas?igsh=MTFiYWRoZ2NheHU3eQ=="><i class="fab fa-instagram"></i></a></li>
+                            <li><a target="_blank" href="https://youtube.com/@elyasahmad-w4e?si=qAUantPAZgEZShXf"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-7 mb-5 ">
+                        <form id="myForm" class="form mt-2" action="https://formspree.io/f/xqaepzny" method="post">
+                            <input type="text" name="name" required placeholder="Your Name" class="form-control">
+                            <input type="email" name="email" required placeholder="Your Email" class="form-control">
+                            <textarea name="message" class="form-control" placeholder="Your Message"></textarea>
+                            <div class="d-grid"><button type="submit" class="btn btn1" id="btn1">Submit</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+           </div>
+
+       </div>
+
+
+        <!-- footer -->
+         <div class="container-fluid footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="text-center mt-3">
+                            <p>Turning ideas into reality. &copy 2025 Elyas Tahere</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+       <!-- jawascript -->
+       <script>
+            // For Skills , Expereince and Education
+            let skillsLink = document.querySelector('#skills');
+            let expereinceLink = document.querySelector('#expereince');
+            let educationLink = document.querySelector('#education');
+
+            let skillsContent = document.querySelector('.skills');
+            let expereinceContent = document.querySelector('.expereinces');
+            let educationContent = document.querySelector('.educations');
+
+            let skillchildren = document.querySelector('.skill');
+            let expereincechildren = document.querySelector('.expereince');
+            let educationchildren = document.querySelector('.education');
+
+            skillsLink.addEventListener('click', function(){
+    
+                    skillsLink.className = 'active-link';
+                    skillsContent.className = 'active-content';
+                    expereinceLink.className = 'unactive-link';
+                    educationLink.className = 'unactive-link';
+
+                    skillchildren.style.display = 'block'
+                    expereincechildren.style.display = 'none';
+                    educationchildren.style.display = 'none';
+            });
+
+            expereinceLink.addEventListener('click', function(){
+
+                    expereinceLink.className = 'active-link';
+                    expereinceContent.className = 'active-content';
+                    educationLink.className = 'unactive-link';
+                    skillsLink.className = 'unactive-link';
+
+                    skillchildren.style.display = 'none'
+                    expereincechildren.style.display = 'block';
+                    educationchildren.style.display = 'none';
+            });
+
+            educationLink.addEventListener('click', function(){
+
+                    educationLink.className = 'active-link';
+                    educationContent.className = 'active-content';
+                    expereinceLink.className = 'unactive-link';
+                    skillsLink.className = 'unactive-link';
+
+                    skillchildren.style.display = 'none'
+                    expereincechildren.style.display = 'none';
+                    educationchildren.style.display = 'block';
+            });
+
+
+            // for  sidemenu Show and hide
+            let sidemenu = document.querySelector('#sidemenu');
+            let openbtn = document.querySelector('#openbtn');
+            
+            function openmenu(){
+                sidemenu.style.right = '0';
+            }
+
+            function closemenu(){
+                sidemenu.style.right = '-300px';
+            }
+
+
+            // for light and dark mode:
+            const toggleButton = document.getElementById("theme-toggle");
+            const root = document.documentElement;
+
+            if (localStorage.getItem("theme") === "light") {
+                root.classList.add("light-mode");
+                toggleButton.innerText = 'Dark Mode';
+            } else {
+                root.classList.remove("light-mode");
+                toggleButton.innerText = 'Light Mode';
+            }
+
+            toggleButton.addEventListener("click", () => {
+                if (root.classList.contains("light-mode")) {
+                    root.classList.remove("light-mode");
+                    localStorage.setItem("theme", "dark");
+                    toggleButton.innerText = 'Light Mode';
+                } else {
+                    root.classList.add("light-mode");
+                    localStorage.setItem("theme", "light");
+                    toggleButton.innerText = 'Dark Mode';
+                }
+            });
+
+
+
+
+            // For accept page from refresh for ligh and dark mode
+            let formsubmit = document.getElementById('formsubmit');
+            formsubmit.addEventListener('click', (e) => {
+                e.preventDefault()
+            });
+
+
+
+            // for clearing form
+            let form = document.getElementById('myForm');
+            let message = document.getElementById('forMessage');
+
+
+            form.addEventListener('submit', function(e){
+                setTimeout(() =>{
+                    form.reset();
+                },1000)
+            })
+
+       </script>
+
+    
+    
+</body>
+</html>
